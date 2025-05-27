@@ -101,8 +101,7 @@ class ProcesadorComentarios:
             print(analisis)
             print("-" * 50)
 
-if __name__ == "__main__":
-    # Reemplaza con tu clave de API
-    api_key = "AIzaSyCfoFHpShpPiae_doO5LXvbPishafLnmFg"
-    procesador = ProcesadorComentarios('comentarios_limpios.csv', api_key)
-    procesador.imprimir_resultados()
+# Código principal
+api_key = os.getenv('YOUR_TOKEN')
+procesador = ProcesadorComentarios('comentarios_limpios.csv', api_key)
+procesador.imprimir_resultados()

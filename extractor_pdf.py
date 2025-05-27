@@ -51,7 +51,7 @@ class PDFComentarioExtractor:
                 for comentario in comentarios:
                     writer.writerow([usuario, comentario])
 
-if __name__ == "__main__":
-    extractor = PDFComentarioExtractor('./BigFive Usuarios (1).pdf')
-    comentarios = extractor.extraer()
-    extractor.guardar_csv()
+# Código principal
+extractor = PDFComentarioExtractor('./BigFive Usuarios (1).pdf')
+comentarios = extractor.extraer()
+extractor.guardar_csv()
