@@ -1,0 +1,39 @@
+node_modules/
+dist/
+build/
+.env
+
+# Archivos de entorno virtual
+venv/
+env/
+ENV/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de distribución
+dist/
+build/
+*.egg-info/
+
+# Archivos de entorno
+.env
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos de registro
+*.log
+
+# Archivos temporales
+*.tmp
+*.bak
+
+# Archivos de datos
+comentarios_limpios.csv
+BigFive Usuarios (1).pdf
