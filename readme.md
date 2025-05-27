@@ -29,4 +29,4 @@ Este proyecto está diseñado para analizar datos, posiblemente relacionados con
 ## Notas
 
 - El archivo `.env` contiene variables de entorno sensibles y no debe ser compartido.
-- El archivo `comentarios_limpios.csv` contiene datos procesados para análisis. 
+- El archivo `comentarios_limpios.csv` contiene datos procesados para análisis. ![image](https://github.com/user-attachments/assets/8ea73826-c11f-44f3-a164-5836bdf5d45e)
